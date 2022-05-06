@@ -1,11 +1,12 @@
-# Cosmic Reservations
+<p align='center'>
+  <img src='public/cosmic-reservations-logo.svg' alt='Logo' height='280'/>
+</p>
 
-A project allowing for users to make reservations for the Cosmic Hotel.
+<h3 align='center'>Cosmic Reservations</h3>
 
-<a href='#'>
-  <img src='./public/cosmic-reservations-logo-full.png' alt='Logo' width='480' height='280'/>
-</a>
-<br /><br />
+<p align="center">
+  A project allowing users to make reservations for the Cosmic Hotel
+</p>
 
 ## Run Locally
 
