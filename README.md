@@ -2,7 +2,10 @@
 
 A project allowing for users to make reservations for the Cosmic Hotel.
 
-<img src='./public/cosmic-reservations-logo-full.svg' alt='Logo'/>
+<a href='#'>
+  <img src='./public/cosmic-reservations-logo-full.svg' alt='Logo'/>
+</a>
+<br /><br />
 
 ## Run Locally
 
