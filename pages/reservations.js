@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Layout from '../components/layout';
 import styles from '../styles/Home.module.css'
 
 /** 
@@ -7,16 +8,11 @@ import styles from '../styles/Home.module.css'
  */
 export default function Reservations () {
   return (
-    <div className={styles.container}>
+    <Layout>
       <Head>
         <title>Reserve a Room</title>
       </Head>
       <h1 className={styles.title}>Reservations</h1>
-      <h2>
-        <Link href='/'>
-          <a>Oops nothing here</a>
-        </Link>
-      </h2>
-    </div>
+    </Layout>
   );
 }
