@@ -11,7 +11,7 @@ export default function Navbar() {
           </svg>
         </a>
       </Link>
-      <Link href='reservations'>
+      <Link href='/reservations'>
         <a className={styles.NavLink}>Reservations</a>
       </Link>
     </nav>
