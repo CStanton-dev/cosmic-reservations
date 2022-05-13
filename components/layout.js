@@ -13,7 +13,7 @@ export const siteTitle = 'Cosmic Reservations'
  * @param {*} children - nested children
  * @returns 
  */
-export default function Layout({ children, home }) {
+export default function Layout({ children, Reservations }) {
   return (
     <div>
       <Head>
@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
         <meta name='twitter:card' content='cosmic-reservations-full.svg' />
       </Head>
       <Navbar/>
-      <main className={styles.container}>{children}</main>
+      {Reservations ? (<main className={styles.reservations}>{children}</main>) : (<main className={styles.main}>{children}</main>)}
       <Footer />
     </div>
   )
