@@ -1,20 +1,22 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Layout from '../components/layout';
-import CarForm from '../lib/room-form';
-import styles from '../styles/Home.module.css'
+import RoomSearch from '../lib/SearchForm';
+import styles from '../styles/Reservations.module.css';
 
 /** 
  * @todo flesh out reservations page 
  */
 export default function Reservations () {
   return (
-    <Layout>
+    <Layout Reservations>
       <Head>
         <title>Reserve a Room</title>
       </Head>
       <h1 className={styles.title}>Reservations</h1>
-      <CarForm />
+      <p className={styles.description}>Search for an open room at the Cosmic Hotel.</p>
+      <div className={styles.container}>
+        <RoomSearch/>
+      </div>
     </Layout>
   );
 }
