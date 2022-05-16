@@ -14,6 +14,9 @@ export default function Navbar() {
       <Link href='/reservations'>
         <a className={styles.NavLink}>Reservations</a>
       </Link>
+      <Link href='/add-a-room'>
+        <a className={styles.NavLink}>Add A Room</a>
+      </Link>
     </nav>
   )
 }
