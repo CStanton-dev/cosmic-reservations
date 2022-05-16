@@ -8,7 +8,7 @@ import styles from '../styles/Reservations.module.css';
  */
 export default function Reservations () {
   return (
-    <Layout Reservations>
+    <Layout>
       <Head>
         <title>Reserve a Room</title>
       </Head>

@@ -14,7 +14,7 @@
   margin: 3rem 0 0;
 }
 
-.main {
+.home {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.reservations {
+.pages {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
