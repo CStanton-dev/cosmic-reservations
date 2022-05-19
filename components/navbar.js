@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { signIn, signOut } from 'next-auth/react'
 import styles from './styles/navbar.module.css';
 
 export default function Navbar() {
@@ -16,6 +17,18 @@ export default function Navbar() {
       </Link>
       <Link href='/add-a-room'>
         <a className={styles.NavLink}>Add A Room</a>
+      </Link>
+      <Link href='/api/auth/signin'>
+        <a className={styles.NavLink} onClick={e => {
+          e.preventDefault
+          signIn()
+        }}>Sign In</a>
+      </Link>
+      <Link href='/api/auth/signout'>
+        <a className={styles.NavLink} onClick={e => {
+          e.preventDefault
+          signOut()
+        }}>Sign Out</a>
       </Link>
     </nav>
   )
