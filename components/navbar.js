@@ -18,6 +18,9 @@ export default function Navbar() {
       <Link href='/add-a-room'>
         <a className={styles.NavLink}>Add A Room</a>
       </Link>
+      <Link href='/dashboard'>
+        <a className={styles.NavLink}>Dashboard</a>
+      </Link>
       <LoginButton/>
     </nav>
   )
