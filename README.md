@@ -34,6 +34,17 @@ This demo requires that you have a Redis database running in the cloud or locall
 REDIS_URL=redis://default:PASSWORD@HOST:PORT
 ```
 
+This demo leverages Github as an OAuth provider. In order to setup authentication with Github OAuth
+please follow [This](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app). Once OAuth is setup in github, add `GITHUB_ID` and `GITHUB_SECRET` to 
+the `.env.local` file from the previous step. Example:
+
+```
+GITHUB_ID=PROVIDED_BY_GITHUB
+GITHUB_SECRET=PROVIDED_BY_GITHUB
+```
+
+Note, in order to use Github OAuth for a locally hosted application make sure to set the `Homepage URL` and the `Authorization callback URL` to `http://localhost:3000`
+
 Start the devlopment server
 
 ```bash
