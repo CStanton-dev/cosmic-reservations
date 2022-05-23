@@ -1,11 +1,8 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import RoomSearch from '../lib/SearchForm';
 import styles from '../styles/Reservations.module.css';
 
-/** 
- * @todo flesh out reservations page 
- */
 export default function Reservations () {
   return (
     <Layout>
