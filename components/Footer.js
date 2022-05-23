@@ -1,10 +1,6 @@
 import Link from 'next/link';
-import styles from './styles/footer.module.css';
+import styles from './styles/Footer.module.css';
 
-/**
- * 
- * @returns 
- */
 export default function Footer() {
   return ( 
     <footer className={styles.footer}>
