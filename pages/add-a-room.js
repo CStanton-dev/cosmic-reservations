@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import RoomForm from '../lib/RoomForm';
 import styles from '../styles/AddARoom.module.css'
 
