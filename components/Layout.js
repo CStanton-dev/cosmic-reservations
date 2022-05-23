@@ -1,18 +1,12 @@
 
 import Head from 'next/head';
-import Navbar from './navbar';
-import Footer from './footer';
-import styles from './styles/layout.module.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import styles from './styles/Layout.module.css';
 
 const name ='Carter Stanton'
 export const siteTitle = 'Cosmic Reservations'
 
-/**
- * Layout component
- * 
- * @param {*} children - nested children
- * @returns 
- */
 export default function Layout({ children, Home }) {
   return (
     <div>
