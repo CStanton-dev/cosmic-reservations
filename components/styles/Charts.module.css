@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.coinInfo {
+  background-color: #fff;
+}
+
+.coinDesc {
+  margin: 0;
+  color: rgb(100 116 139);
+}
+
+.coinPrice {
+  margin: 0 5px 0 0;
+}
+
+.currency {
+  color: slategray;
+  font-size: 1rem;
+}
+
