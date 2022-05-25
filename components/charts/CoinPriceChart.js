@@ -39,19 +39,14 @@ export default function CoinPriceChart(props) {
   const data = {
     datasets: [
       {
-        label: 'Bitcoin Price Chart',
+        label: 'Bitcoin Price',
         fill: true,
         data: formatData(props.prices),
-        borderColor: '#3B82F6',
+        borderColor: '#0089fc',
         backgroundColor: 'rgba(59, 130, 246, 0.2)',
         borderWidth: 3,
         pointRadius: props.pointRadius,
-        pointHoverRadius: 5,
-        borderCapStyle: 'butt',
-        pointHoverRadius: 5,
-        pointHoverBackgroundColor: 'rgba(59, 130, 246, 1)',
-        pointHoverBorderColor: 'rgba(59, 130, 246, 1)',
-        pointHoverBorderWidth: 2,
+        tension: 0,
       }
     ]
   };
@@ -62,7 +57,7 @@ export default function CoinPriceChart(props) {
         <p className={styles.coinDesc}>Bitcoin Price</p>
         <h2 className={styles.coinPrice}>${currentPrice}<span className={styles.currency}>&nbsp;usd</span></h2>
       </div>
-      <div className={styles.test}>
+      <div>
         <Line data={data} options={Config} />
       </div>
     </div>
