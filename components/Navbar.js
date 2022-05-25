@@ -4,7 +4,7 @@ import LoginButton from './LoginButton';
 
 export default function Navbar() {
   return (
-    <nav className={styles.Navbar}>
+    <nav role='navigation' className={styles.Navbar} aria-label='Main'>
       <Link href='/' passHref>
         <a className={styles.NavLink}>
           <svg height="36" viewBox="0 0 1792 1792" width="36" xmlns="http://www.w3.org/2000/svg">
