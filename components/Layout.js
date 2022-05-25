@@ -22,7 +22,7 @@ export default function Layout({ children, Home }) {
         <meta name='twitter:card' content='cosmic-reservations-full.svg' />
       </Head>
       <Navbar/>
-      {Home ? (<main className={styles.home}>{children}</main>) : (<main className={styles.pages}>{children}</main>)}
+      {Home ? (<main role='main' className={styles.home}>{children}</main>) : (<main role='main' className={styles.pages}>{children}</main>)}
       <Footer />
     </div>
   )
